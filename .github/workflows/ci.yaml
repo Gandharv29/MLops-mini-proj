@@ -21,6 +21,6 @@ jobs:
 
       - name: run pipeline
         env:
-          - DAGSHUB_PAT : ${{ secrets.DAGSHUB_PAT }} #the name of the token here would be the same as the github secret name
+          DAGSHUB_PAT : ${{ secrets.DAGSHUB_PAT }} #the name of the token here would be the same as the github secret name
         run : |
           dvc repro
