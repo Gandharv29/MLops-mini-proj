@@ -19,7 +19,7 @@ def get_latest_model_version(model_name):
     return latest_version[0].version if latest_version else None
 
 model_name = "my_model"
-model_version = get_latest_model_version(model_name)
+model_version = 4
 
 model_uri = f'models:/{model_name}/{model_version}'
 model = mlflow.pyfunc.load_model(model_uri)
