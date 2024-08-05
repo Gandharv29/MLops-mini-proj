@@ -1,4 +1,4 @@
 [core]
     remote = myremote
 ['remote "myremote"']
-    url = C:\Users\Arun\AppData\Local\Temp
+    url = s3://mlops-mini-proj
